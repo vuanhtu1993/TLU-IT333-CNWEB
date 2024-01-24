@@ -9,7 +9,15 @@ function App() {
 
   return (
     <>
-      <UserProfile />
+      <UserProfile
+        image="https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png"
+        name="player1"
+        active={false} />
+
+      <UserProfile
+        image="https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png"
+        name="player2"
+        active={true} />
     </>
   )
 }
