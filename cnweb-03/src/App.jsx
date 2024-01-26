@@ -9,7 +9,14 @@ function App() {
 
   return (
     <>
-      <UserProfile />
+      <UserProfile
+        image="https://cdn.iconscout.com/icon/free/png-256/free-avatar-370-456322.png"
+        name="Player 1"
+        active={true} />
+      <UserProfile
+        image="https://cdn-icons-png.flaticon.com/512/147/147140.png"
+        name="Player 2"
+        active={false} />
     </>
   )
 }
