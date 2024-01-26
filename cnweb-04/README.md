@@ -1,8 +1,14 @@
-# React + Vite
+# React under hood
+### 1. Props
+ - Là một đối tượng
+ - Props được truyền từ cha xuống con
+ - Props là thuộc tính read-only
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 2. State
+- Là dữ liệu của riêng component
+- State tốn bộ nhớ, giảm thiểu state
+- State không được phụ thuộc vào props hoặc một state khác
+- State thay đổi theo thời gian
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 3. Event
+- 
